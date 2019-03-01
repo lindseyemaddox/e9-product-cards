@@ -1,0 +1,49 @@
+
+.container {
+  font-family: 'arial', sans-serif;
+  font-size: 12px;
+  margin: 30px;
+}
+
+.container > div {
+  box-shadow: 2px 2px 5px black;
+  flex: 3;
+  margin: 1%;
+  display: inline-block;
+  width: 30%;
+}
+
+header h2 {
+  text-align: center;
+}
+
+div:first-child p {
+  text-align: justify;
+  padding: 10px;
+}
+
+section:nth-child(3),
+section:nth-child(4) {
+  padding: 20px;
+}
+
+section:nth-child(3) p,
+section:nth-child(4) p {
+  font-weight: bold;
+  line-height: 1em;
+}
+
+section img {
+  margin: 5%;
+  width: 90%;
+}
+
+div > header {
+  border: 1px solid lightblue;
+}
+
+h3 {
+  background-color: gray;
+  color: yellow;
+  padding: 5px
+}
